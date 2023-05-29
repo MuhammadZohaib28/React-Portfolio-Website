@@ -1,0 +1,14 @@
+marquee {
+    /* border: 1px solid #845269; */
+    padding: 0.3rem;
+    width: 90%;
+    margin-left: 4.7rem;
+    background: linear-gradient(
+      68.6deg,
+      rgb(252, 165, 241) 1.8%,
+      rgb(181, 255, 255) 100.5%
+    );
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+  }

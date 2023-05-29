@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 43rem;
+    align-items: center;
+    margin: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 0.2rem;
+  
+    background: radial-gradient(
+      250px at 10.9% 48.6%,
+      rgb(194, 227, 255, 0.454) 39.3%,
+      rgb(226, 196, 253, 0.454) 72.5%
+    );
+  }
+
+  .headder{
+    border: 1px solid #18191a00;
+    /* background-color: #18191a00; */
+  }
+  
+  img {
+    height: 5rem;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    /* border: 1px solid rgb(55, 255, 0); */
+    padding: 0.6rem;
+    /* background: linear-gradient(
+      96.2deg,
+      rgb(255, 230, 112, 0.145) 10.4%,
+      rgb(255, 100, 100, 0.145) 43.8%,
+      rgb(0, 93, 219, 0.145) 105.8%
+    ); */
+    /* background: radial-gradient(
+      253px at 12.6% 77.9%,
+      rgb(221, 255, 214, 0.554) 0.3%,
+      rgb(214, 254, 254, 0.554) 90.5%
+    ); */
+    background: linear-gradient(
+      113.3deg,
+      rgb(0, 98, 186, 0.545) -6%,
+      rgb(88, 40, 178, 0.545) 10.2%,
+      rgb(234, 39, 119, 0.545) 34.3%,
+      rgb(255, 80, 152, 0.545) 54%,
+      rgb(255, 101, 74, 0.545) 62.5%,
+      rgb(254, 166, 34, 0.545) 77.2%,
+      rgb(255, 227, 99, 0.545) 91.2%,
+      rgb(58, 243, 156, 0.545) 112%,
+      rgb(58, 243, 156, 0.545) 118.1%
+    );
+    border-radius: 0.5rem;
+  }
+  
+  li {
+    /* border: 1px solid red; */
+    background-color: #04bfe4;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(
+      109.6deg,
+      rgb(80, 35, 217, 0.254) 11.2%,
+      rgb(217, 35, 189, 0.254) 91.1%
+    );
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background: linear-gradient(
+      109.6deg,
+      rgb(80, 35, 217, 0.854) 11.2%,
+      rgb(217, 35, 189, 0.854) 91.1%
+    );
+  }

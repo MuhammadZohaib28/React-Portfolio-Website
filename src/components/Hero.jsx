@@ -1,0 +1,100 @@
+import React, { useState } from "react";
+import "./hero.css";
+import zohaibPicture from "./Images/zohaib's picture.png";
+
+const Hero = () => {
+  const [paraExpand, setParaExpand] = useState(false);
+  const [paraExpand1, setParaExpand1] = useState(false);
+  const [paraExpand2, setParaExpand2] = useState(false);
+  const [paraExpand3, setParaExpand3] = useState(false);
+  const [paraExpand4, setParaExpand4] = useState(false);
+
+  const handleParaExpand = () => {
+    setParaExpand(!paraExpand);
+  };
+
+  const handleParaExpand1 = () => {
+    setParaExpand1(!paraExpand1);
+  };
+
+  const handleParaExpand2 = () => {
+    setParaExpand2(!paraExpand2);
+  };
+
+  const handleParaExpand3 = () => {
+    setParaExpand3(!paraExpand3);
+  };
+
+  const handleParaExpand4 = () => {
+    setParaExpand4(!paraExpand4);
+  };
+
+  return (
+    <div className="mainSection">
+      <div className="mainSectionC">
+        <h1 className="mainSectionHeading">MUHAMMAD ZOHAIB</h1>
+        <h3 className="frontEDev">(FrontEnd Developer)</h3>
+        <div className="paraSectionContainer">
+          <p
+            className="paraMainSection paraMainSection1"
+            onMouseEnter={handleParaExpand}
+            onMouseLeave={!handleParaExpand}
+          >
+            {" "}
+            {paraExpand
+              ? "🎨 Frontend Maestro"
+              : "Hi there! I'm a frontend developer with a passion for creating beautiful and functional websites. My goal is to make the user experience as seamless as possible while ensuring that the websiteis visually appealing."}
+          </p>
+
+          <p
+            className="paraMainSection paraMainSection2"
+            onMouseEnter={handleParaExpand1}
+            onMouseLeave={!handleParaExpand1}
+          >
+            {" "}
+            {paraExpand1
+              ? "Showcasing My Expertise 😍"
+              : "I have extensive experience with HTML, CSS, JavaScript, and various frontend frameworks such as React and Vue. I also have experience working with APIs, responsive design, and cross-browser compatibility."}
+          </p>
+
+          <p
+            className="paraMainSection paraMainSection3"
+            onMouseEnter={handleParaExpand2}
+            onMouseLeave={!handleParaExpand2}
+          >
+            {paraExpand2
+              ? "🎨 Masterpieces 🚀"
+              : "In my portfolio, you will find a collection of projects that showcase my skills and expertise. From single-page applications to responsive e-commerce websites, each project has been carefully designed and coded to proide an optimal user experience"}
+          </p>
+
+          <p
+            className="paraMainSection paraMainSection4"
+            onMouseEnter={handleParaExpand3}
+            onMouseLeave={!handleParaExpand3}
+          >
+            {" "}
+            {paraExpand3
+              ? "🌟 🚀 Versatile Collaborator"
+              : "I take pride in my ability to communicate effectively with clients and team members, ensuring that projects are completed on time and to the highest standards. I'm always on the lookout for new challenges and opportunities to further improve my skill "}
+          </p>
+
+          <p
+            className="paraMainSection paraMainSection5"
+            onMouseEnter={handleParaExpand4}
+            onMouseLeave={!handleParaExpand4}
+          >
+            {" "}
+            {paraExpand4
+              ? "🔥 🌟 Frontend Enthusiast"
+              : "If you're looking for a frontend developer who is passionate, skilled, and dedicated to delivering high-quality work, look no further. Let's work together to create something amazing! "}
+          </p>
+        </div>
+      </div>
+      <div className="mainSectionImageBg">
+        <img src={zohaibPicture} className="mainSectionImage" />
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
