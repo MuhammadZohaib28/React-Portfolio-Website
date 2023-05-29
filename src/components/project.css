@@ -69,7 +69,7 @@
   margin: 1rem auto;
   /* border: 1px solid red; */
   width: 50%;
-  padding: 0.5rem;
+  padding: 0.1rem;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(210, 36, 129, 0.345) 0%,
@@ -87,10 +87,12 @@
   /* margin-right: 11rem; */
   background: linear-gradient(
     113.5deg,
-    rgb(234, 234, 234) 22.3%,
-    rgb(201, 234, 211) 56.6%,
-    rgb(255, 180, 189) 90.9%
+    rgb(234, 234, 234, 0.748) 22.3%,
+    rgb(201, 234, 211, 0.748) 56.6%,
+    rgb(255, 180, 189, 0.748) 90.9%
   );
+
+  
 }
 
 .postContainer {
@@ -138,26 +140,26 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 55rem;
+  width: 100%;
   margin: 0 auto;
-  height: 5rem;
+  height: 4.5rem;
   background: linear-gradient(
     94.5deg,
     rgb(255, 235, 104, 0.545) -1.2%,
     rgb(61, 247, 255, 0.545) 119.2%
   );
   border-radius: 0.4rem;
-  position: relative;
+  /* position: absolute; */
 }
 
 .postTopLeftName {
   /* border: 1px solid rebeccapurple; */
   /* position: absolute; */
-  width: 18rem;
+  width: 21.5rem;
   /* height: 4rem; */
   margin-right: 10rem;
-  padding: 0.8rem;
-  font-size: 1.7rem;
+  padding: 0.4rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 0.4rem;
   background: linear-gradient(
@@ -169,7 +171,7 @@
 
 .postTopLeftDate {
   /* border: 1px solid rgb(0, 0, 0); */
-  width: 18rem;
+  width: 25rem;
 
   /* margin-right: 0.5rem;  */
   display: flex;

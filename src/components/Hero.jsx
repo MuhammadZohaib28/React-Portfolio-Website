@@ -3,11 +3,11 @@ import "./hero.css";
 import zohaibPicture from "./Images/zohaib's picture.png";
 
 const Hero = () => {
-  const [paraExpand, setParaExpand] = useState(false);
-  const [paraExpand1, setParaExpand1] = useState(false);
-  const [paraExpand2, setParaExpand2] = useState(false);
-  const [paraExpand3, setParaExpand3] = useState(false);
-  const [paraExpand4, setParaExpand4] = useState(false);
+  const [paraExpand, setParaExpand] = useState(true);
+  const [paraExpand1, setParaExpand1] = useState(true);
+  const [paraExpand2, setParaExpand2] = useState(true);
+  const [paraExpand3, setParaExpand3] = useState(true);
+  const [paraExpand4, setParaExpand4] = useState(true);
 
   const handleParaExpand = () => {
     setParaExpand(!paraExpand);
