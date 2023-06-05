@@ -198,9 +198,9 @@
 }
 
 .postDiscriptionSection {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   text-align: start;
-  padding: 0.5rem;
+  padding: 0.4rem;
   background: linear-gradient(
     79.8deg,
     rgb(101, 132, 154, 0.145) 3.2%,
@@ -285,12 +285,14 @@
     width: 100%;
     margin-right: 0;
     font-size: 1rem;
+    height: 2.5rem;
   }
 
   .postTopLeftDate {
-    width: 100%;
+    width: 190%;
     margin-right: 0;
     font-size: 1rem;
+    height: 2.5rem;
   }
 
   .postTopLeftImg{

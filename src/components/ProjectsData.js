@@ -4,8 +4,7 @@ import projectPicture from "../components/Images/logo.png";
 const projectData = [
   {
     date: "19th March, 2022",
-    description:
-      "Joined, Sir Muhammad Ali Mughal's Certified Web 3.0 and Metaverse Course by Jawan Pakistan. Alhamdulillah. &#x2764;",
+    description: "This project is one of my first project, Crypto Price App. Here you can see the updated prices of digital currencies. ",
     projectPicture: projectPicture,
     accountPicture: postPicture,
   },
