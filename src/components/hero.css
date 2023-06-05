@@ -267,7 +267,8 @@ span {
 
   .frontEDev {
     width: auto;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    /* border: 1px solid red; */
   }
 
   .paraMainSection,
@@ -279,8 +280,16 @@ span {
     font-size: 0.9rem;
   }
 
+  .paraMainSection:hover{
+    width: 13rem;
+  }
+
   .paraSectionContainer {
+    /* border: 1px solid red; */
     width: 14rem;
     margin: 2.5rem auto;
+  }
+  .paraSectionContainer:hover{
+    width: 20rem;
   }
 }
