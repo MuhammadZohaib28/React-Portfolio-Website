@@ -246,14 +246,12 @@ span {
 }
 
 @media (max-width: 576px) {
-  
   .mainSection {
     margin: auto;
   }
 
   .mainSectionImage {
     height: 16rem;
-    
   }
 
   .mainSectionImageBg {
@@ -278,9 +276,17 @@ span {
   .paraMainSection4,
   .paraMainSection5 {
     font-size: 0.9rem;
+    /* border: 1px solid red; */
   }
 
-  .paraMainSection:hover{
+  .paraMainSection:hover {
+    /* margin-right: 10.1rem; */
+    /* border: 1px solid red; */
+    transform: translateX(3rem);
+    transition: all ease 1s;
+  }
+
+  .paraMainSection:hover {
     width: 13rem;
   }
 
@@ -289,7 +295,7 @@ span {
     width: 14rem;
     margin: 2.5rem auto;
   }
-  .paraSectionContainer:hover{
-    width: 20rem;
+  .paraSectionContainer:hover {
+    width: 18rem;
   }
 }
