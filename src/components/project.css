@@ -91,8 +91,6 @@
     rgb(201, 234, 211, 0.748) 56.6%,
     rgb(255, 180, 189, 0.748) 90.9%
   );
-
-  
 }
 
 .postContainer {
@@ -200,7 +198,7 @@
 }
 
 .postDiscriptionSection {
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   text-align: start;
   padding: 0.5rem;
   background: linear-gradient(
@@ -210,6 +208,7 @@
   );
   border-radius: 0.5rem;
   margin: 0 auto;
+  word-wrap: break-word;
 }
 
 .postBottom {
@@ -262,4 +261,77 @@
 .abt {
   width: 25%;
   margin-bottom: 3rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .aboutMeSection {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .socialMediaSectionHeadingContainer {
+    width: 90%;
+  }
+
+  .postContainer {
+    width: 95%;
+    /* border: 1px solid red; */
+    /* height: 30rem; */
+  }
+
+  .postTopLeftName {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1rem;
+  }
+
+  .postTopLeftDate {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1rem;
+  }
+
+  .postTopLeftImg{
+    height: 4.5rem;
+  }
+
+  .postBottomImg {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+  }
+
+  .postBottom {
+    width: 95%;
+  }
+
+  .abt {
+    width: 90%;
+  }
+
+  .postTop{
+    /* border: 1px solid red; */
+    height: 4rem;
+    
+  }
+
+  .postTopLeft{
+    height: 3rem;
+  }
+
+  .postDiscriptionSection{
+    /* border: 1px solid red; */
+    width: 14rem;
+    height: 5rem;
+    margin-right: 10rem;
+  }
+
+  .postDiscription{
+    /* border: 1px solid yellow; */
+    height: 4rem;
+    font-size: 0.7rem;
+    width: 14rem;
+  }
 }

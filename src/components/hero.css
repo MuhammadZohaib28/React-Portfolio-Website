@@ -253,10 +253,12 @@ span {
 
   .mainSectionImage {
     height: 16rem;
+    
   }
 
   .mainSectionImageBg {
     height: 16rem;
+    margin: 0.5rem auto;
   }
 
   .mainSectionHeading {
