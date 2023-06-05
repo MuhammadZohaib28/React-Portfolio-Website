@@ -1,6 +1,6 @@
 import React from "react";
 import "./project.css";
-import zohaib from "./Images/zohaib's picture.png";
+// import zohaib from "./Images/zohaib's picture.png";
 // import projectPicture from "./Images/333720800_943284120013635_9211563476470379960_n.jpg";
 import projectData from "./ProjectsData";
 
@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="postWrapper"></div>
                 <div className="postTop">
                   <div className="postTopLeft">
-                    <img src={zohaib} alt="" className="postTopLeftImg" />
+                    <img src={items.accountPicture} alt="" className="postTopLeftImg" />
                     <span className="postTopLeftName">Muhammad Zohaib</span>
                     <span className="postTopLeftDate">{items.date}</span>
                   </div>

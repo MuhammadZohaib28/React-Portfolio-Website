@@ -191,3 +191,94 @@ span {
 
   transition: all ease 0.9s;
 }
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1024px) {
+  .mainSection {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+
+  .mainSectionC {
+    width: 100%;
+  }
+
+  .mainSectionImageBg {
+    margin-top: 1rem;
+  }
+
+  .paraMainSection,
+  .paraMainSection1,
+  .paraMainSection2,
+  .paraMainSection3,
+  .paraMainSection4,
+  .paraMainSection5 {
+    width: auto;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSectionHeading {
+    width: auto;
+  }
+
+  .frontEDev {
+    width: auto;
+    font-size: 2rem;
+  }
+
+  .paraMainSection,
+  .paraMainSection1,
+  .paraMainSection2,
+  .paraMainSection3,
+  .paraMainSection4,
+  .paraMainSection5 {
+    font-size: 1rem;
+  }
+
+  .paraSectionContainer {
+    width: 16rem;
+    margin: 2.5rem auto;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .mainSection {
+    margin: auto;
+  }
+
+  .mainSectionImage {
+    height: 16rem;
+  }
+
+  .mainSectionImageBg {
+    height: 16rem;
+  }
+
+  .mainSectionHeading {
+    width: auto;
+  }
+
+  .frontEDev {
+    width: auto;
+    font-size: 1.8rem;
+  }
+
+  .paraMainSection,
+  .paraMainSection1,
+  .paraMainSection2,
+  .paraMainSection3,
+  .paraMainSection4,
+  .paraMainSection5 {
+    font-size: 0.9rem;
+  }
+
+  .paraSectionContainer {
+    width: 14rem;
+    margin: 2.5rem auto;
+  }
+}

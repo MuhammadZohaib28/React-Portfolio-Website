@@ -79,3 +79,23 @@ header {
       rgb(217, 35, 189, 0.854) 91.1%
     );
   }
+
+  /* Responsive Styles */
+
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      gap: 0.4rem;
+      padding: 0.5rem;
+    }
+  
+    .header ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .header li {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
