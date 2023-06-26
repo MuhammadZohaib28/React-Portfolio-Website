@@ -70,6 +70,8 @@ header {
     font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
+    color: white;
+    font-weight: 550;
   }
   
   li:hover {
