@@ -10,9 +10,9 @@ const Header = () => {
 
         <nav>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Portfolio</li>
+            <li>Hire Me</li>
+            <li>Download CV</li>
+            <li>About Me</li>
           </ul>
         </nav>
       </header>

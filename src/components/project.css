@@ -180,8 +180,8 @@
   color: rgb(100, 100, 100);
   background: linear-gradient(
     79.8deg,
-    rgb(101, 132, 154, 0.145) 3.2%,
-    rgb(160, 197, 201, 0.145) 89.1%
+    rgb(101, 132, 154, 0.745) 3.2%,
+    rgb(160, 197, 201, 0.745) 89.1%
   );
   border-radius: 0.4rem;
   font-size: 1.6rem;
@@ -229,6 +229,7 @@
   width: 37.5rem;
   border-radius: 0.2rem;
   object-fit: contain;
+
 }
 
 .postBottomImgContainer {
@@ -291,8 +292,8 @@
   .postTopLeftDate {
     width: 190%;
     margin-right: 0;
-    font-size: 1rem;
-    height: 2.5rem;
+    font-size: 0.8rem;
+    height: 1rem;
   }
 
   .postTopLeftImg{

@@ -18,7 +18,11 @@ const Projects = () => {
                 <div className="postWrapper"></div>
                 <div className="postTop">
                   <div className="postTopLeft">
-                    <img src={items.accountPicture} alt="" className="postTopLeftImg" />
+                    <img
+                      src={items.accountPicture}
+                      alt=""
+                      className="postTopLeftImg"
+                    />
                     <span className="postTopLeftName">Muhammad Zohaib</span>
                     <span className="postTopLeftDate">{items.date}</span>
                   </div>
@@ -30,11 +34,13 @@ const Projects = () => {
                 </div>
                 <div className="postBottom">
                   <div className="postBottomImgContainer">
-                    <img
-                      src={items.projectPicture}
-                      alt=""
-                      className="postBottomImg"
-                    />
+                    <a href={items.projectLink} target="_blank">
+                      <img
+                        src={items.projectPicture}
+                        alt=""
+                        className="postBottomImg"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
