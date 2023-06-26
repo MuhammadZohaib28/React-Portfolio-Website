@@ -12,7 +12,7 @@ const Hero = () => {
   const handleParaExpand = () => {
     setParaExpand(!paraExpand);
   };
-
+  
   const handleParaExpand1 = () => {
     setParaExpand1(!paraExpand1);
   };
