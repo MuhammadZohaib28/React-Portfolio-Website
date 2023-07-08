@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./hero.css";
 import zohaibPicture from "./Images/zohaib's picture.png";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 
 const Hero = () => {
   const [paraExpand, setParaExpand] = useState(true);
@@ -29,11 +31,22 @@ const Hero = () => {
     setParaExpand4(!paraExpand4);
   };
 
+  const [text] = useTypewriter({
+    words: [
+      "ReactJS Developer",
+      "JS Developer",
+      "Web Developer",
+      "Frontend Web Developer"
+    ],
+    loop: {},
+  });
+
   return (
     <div className="mainSection">
       <div className="mainSectionC">
         <h1 className="mainSectionHeading">MUHAMMAD ZOHAIB</h1>
-        <h3 className="frontEDev">(FrontEnd Developer)</h3>
+        <h3 className="frontEDev">{text}<Cursor />
+        </h3>
         <div className="paraSectionContainer">
           <p
             className="paraMainSection paraMainSection1"
