@@ -37,8 +37,8 @@ const Hero = () => {
         <div className="paraSectionContainer">
           <p
             className="paraMainSection paraMainSection1"
-            onMouseEnter={handleParaExpand}
-            onMouseLeave={!handleParaExpand}
+            onClick={handleParaExpand}
+            // onClick={!handleParaExpand}
           >
             {" "}
             {paraExpand
@@ -48,8 +48,8 @@ const Hero = () => {
 
           <p
             className="paraMainSection paraMainSection2"
-            onMouseEnter={handleParaExpand1}
-            onMouseLeave={!handleParaExpand1}
+            onClick={handleParaExpand1}
+            // onMouseLeave={!handleParaExpand1}
           >
             {" "}
             {paraExpand1
@@ -59,8 +59,8 @@ const Hero = () => {
 
           <p
             className="paraMainSection paraMainSection3"
-            onMouseEnter={handleParaExpand2}
-            onMouseLeave={!handleParaExpand2}
+            onClick={handleParaExpand2}
+            // onMouseLeave={!handleParaExpand2}
           >
             {paraExpand2
               ? "🎨 Masterpieces 🚀"
@@ -69,8 +69,8 @@ const Hero = () => {
 
           <p
             className="paraMainSection paraMainSection4"
-            onMouseEnter={handleParaExpand3}
-            onMouseLeave={!handleParaExpand3}
+            onClick={handleParaExpand3}
+            // onMouseLeave={!handleParaExpand3}
           >
             {" "}
             {paraExpand3
@@ -80,8 +80,8 @@ const Hero = () => {
 
           <p
             className="paraMainSection paraMainSection5"
-            onMouseEnter={handleParaExpand4}
-            onMouseLeave={!handleParaExpand4}
+            onClick={handleParaExpand4}
+            // onMouseLeave={!handleParaExpand4}
           >
             {" "}
             {paraExpand4

@@ -18,7 +18,7 @@ marquee {
 /* Adjust styles for smaller screens */
 @media (max-width: 768px) {
   marquee {
-    width: 100%;
+    xh: 100%;
     margin: 0;
     font-size: 1rem;
   }
