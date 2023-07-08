@@ -33,10 +33,10 @@ const Hero = () => {
 
   const [text] = useTypewriter({
     words: [
-      "ReactJS Developer",
-      "JS Developer",
-      "Web Developer",
-      "Frontend Web Developer"
+      "ReactJS Developer.",
+      "JS Developer.",
+      "Web Developer.",
+      "Frontend Web Developer."
     ],
     loop: {},
   });
