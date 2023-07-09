@@ -17,7 +17,7 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <div className="app" id={theme}>
-        <Header button = {toggleTheme}/>
+        <Header button = {toggleTheme} name = {theme}/>
         <Marquee />
         <Hero />
         <Projects />

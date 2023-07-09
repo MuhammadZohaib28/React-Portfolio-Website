@@ -21,7 +21,9 @@ const Header = (props) => {
           <ul>
             <li onClick={handleHireMeClick}>Hire Me</li>
             <li onClick={handleDownloadCVClick}>Download Resume</li>
-            <li onClick={props.button}>Dark Mode</li>
+            <li onClick={props.button}>
+            {props.name === "light" ? "Convert to Dark Mode" : "Convert to Light Mode"}
+            </li>
           </ul>
         </nav>
       </header>
