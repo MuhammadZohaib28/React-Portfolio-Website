@@ -103,6 +103,16 @@ footer {
     .linkedIn {
       height: 5rem;
     }
+
+    #dark .yearFooter{
+        /* border: 1px solid red; */
+        font-size: 1.5rem;
+    }
+
+    #dark .nameFooter{
+        font-size: 1.7rem;
+    }
+
   }
   
   @media (max-width: 480px) {
@@ -118,4 +128,6 @@ footer {
     .yearFooter {
       font-size: 1.8rem;
     }
+
+
   }
