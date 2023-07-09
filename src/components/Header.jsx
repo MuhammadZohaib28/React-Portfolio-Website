@@ -18,10 +18,10 @@ const Header = (props) => {
         <img src={logo} alt="zohaib" class="logo" />
 
         <nav>
-          <ul>
-            <li onClick={handleHireMeClick}>Hire Me</li>
-            <li onClick={handleDownloadCVClick}>Download Resume</li>
-            <li onClick={props.button}>
+          <ul className="headerNavUl">
+            <li className="headerNavLi" onClick={handleHireMeClick}>Hire Me</li>
+            <li className="headerNavLi" onClick={handleDownloadCVClick}>Download Resume</li>
+            <li className="headerNavLi" onClick={props.button}>
             {props.name === "light" ? "Convert to Dark Mode" : "Convert to Light Mode"}
             </li>
           </ul>

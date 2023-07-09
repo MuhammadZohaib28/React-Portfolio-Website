@@ -1,0 +1,123 @@
+footer {
+  /* border: 1px solid red; */
+  height: 41vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 80rem;
+  background: radial-gradient(
+    250px at 10.9% 48.6%,
+    rgb(194, 227, 255, 0.454) 39.3%,
+    rgb(226, 196, 253, 0.454) 72.5%
+  );
+  border-radius: 0.5rem;
+}
+
+#dark footer{
+    background: linear-gradient(109.6deg, rgb(26, 0, 56) 13.4%, rgb(73, 1, 32) 100.2%);
+  }
+
+
+#dark h2{
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.2rem;
+    font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  }
+
+#dark .yearFooter{
+    color: rgb(159, 159, 158);
+}
+
+#dark .socialMediaIconContainerFooter{
+    /* border: 1px solid red; */
+    background:none;
+}
+
+#dark .socialMediaIconsFooter{
+    background: none;
+}
+
+#dark .socialMediaIconFooter{
+    mix-blend-mode: hard-light;
+}
+
+.nameContainerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameFooter {
+  font-size: 2rem;
+}
+
+.yearFooter {
+  font-size: 2rem;
+}
+
+.logoFooter {
+  height: 12rem;
+}
+
+.socialMediaIconContainerFooter {
+  /* border: 1px solid red; */
+}
+
+.socialMediaIconsFooter {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
+}
+
+.linkedIn {
+  border-radius: 99rem;
+  height: 7rem;
+  /* border: 1px solid red; */
+}
+
+
+/* Responsive styles for footer */
+@media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      height: auto;
+      padding: 2rem;
+      text-align: center;
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .logoFooter {
+      height: 8rem;
+    }
+  
+    .socialMediaIconsFooter {
+      gap: 0.5rem;
+    }
+  
+    .linkedIn {
+      height: 5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    .logoFooter {
+      height: 6rem;
+    }
+  
+    .nameFooter,
+    .yearFooter {
+      font-size: 1.8rem;
+    }
+  }

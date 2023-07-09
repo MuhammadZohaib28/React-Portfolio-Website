@@ -4,7 +4,7 @@
     rgb(239, 246, 249, 0.245) 0%,
     rgb(206, 239, 253, 0.245) 90%
   );
-  height: 200vh;
+  height: 254.8vh;
 }
 
 #light{
@@ -14,4 +14,31 @@
 #dark{
   background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 
+}
+
+.scrollToTop {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+  /* border: 1px solid red; */
+  width: 10%;
+  padding: 0.8rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  animation: scrollAnimation 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
