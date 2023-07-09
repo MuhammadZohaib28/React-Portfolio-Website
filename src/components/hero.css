@@ -191,18 +191,6 @@
 
 
 
-.mainSectionImageBg:hover {
-  /* border: 1px solid red; */
-  /* border-radius: 70% 30% 44% 56% / 47% 47% 53% 53%; */
-
-  /* background: linear-gradient(to right,  #8458742a, #45747826); */
-  background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));
-  /* background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%); */
-  height: 22rem;
-  margin-top: 3rem;
-  transition: all ease 1s;
-}
-
 .mainSectionHeading {
   /* border: 1px solid red; */
   width: 45rem;

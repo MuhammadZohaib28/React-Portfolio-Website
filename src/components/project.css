@@ -275,23 +275,27 @@
   .aboutMeSection {
     width: 90%;
     margin: 1rem auto;
+    
   }
 
   .socialMediaSectionHeadingContainer {
     width: 90%;
+    
   }
 
   .postContainer {
     width: 95%;
     /* border: 1px solid red; */
-    /* height: 30rem; */
+    height: 25rem;
+    
   }
 
   .postTopLeftName {
     width: 100%;
     margin-right: 0;
-    font-size: 1rem;
-    height: 2.5rem;
+    font-size: 0.8rem;
+    height: 2.2rem;
+
   }
 
   .postTopLeftDate {
@@ -299,6 +303,8 @@
     margin-right: 0;
     font-size: 0.8rem;
     height: 1rem;
+
+    color: rgb(0, 0, 0);
   }
 
   .postTopLeftImg{

@@ -23,6 +23,10 @@ header {
   #dark header{
     background: linear-gradient(109.6deg, rgb(26, 0, 56) 13.4%, rgb(73, 1, 32) 100.2%);
   }
+
+  #dark ul {
+    background: linear-gradient(109.6deg, rgb(26, 0, 56) 13.4%, rgb(73, 1, 32) 100.2%);
+  }
   
   img {
     height: 5rem;
@@ -58,8 +62,10 @@ header {
       rgb(58, 243, 156, 0.545) 112%,
       rgb(58, 243, 156, 0.545) 118.1%
     );
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
   }
+
+
   
   li {
     /* border: 1px solid red; */
@@ -90,18 +96,26 @@ header {
 
   @media (max-width: 768px) {
     .header {
-      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       gap: 0.4rem;
-      padding: 0.5rem;
+      /* padding: 0.5rem; */
     }
   
     .header ul {
       flex-wrap: wrap;
       justify-content: center;
+      gap: 0.3rem;
+      /* border: 1px solid red; */
+      padding: 0;
+      border-radius: 1rem;
+
     }
   
     .header li {
       margin-top: 0.5rem;
       font-size: 0.9rem;
+      border-radius: 0.2rem;
     }
   }
