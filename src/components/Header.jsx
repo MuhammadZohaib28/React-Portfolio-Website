@@ -3,7 +3,7 @@ import "./header.css";
 import logo from "./Images/logo.png";
 import cvFile from "./path/to/Muhammad Zohaib Resume.pdf";
 
-const Header = () => {
+const Header = (props) => {
   const handleHireMeClick = () => {
     window.open("mailto:zohaibsoomro0101@gmail.com", "_blank");
   };
@@ -21,6 +21,7 @@ const Header = () => {
           <ul>
             <li onClick={handleHireMeClick}>Hire Me</li>
             <li onClick={handleDownloadCVClick}>Download Resume</li>
+            <li onClick={props.button}>Dark Mode</li>
           </ul>
         </nav>
       </header>

@@ -19,6 +19,10 @@ header {
     border: 1px solid #18191a00;
     /* background-color: #18191a00; */
   }
+
+  #dark header{
+    background: linear-gradient(109.6deg, rgb(26, 0, 56) 13.4%, rgb(73, 1, 32) 100.2%);
+  }
   
   img {
     height: 5rem;

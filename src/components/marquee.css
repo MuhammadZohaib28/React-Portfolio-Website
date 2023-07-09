@@ -13,6 +13,11 @@ marquee {
   font-family: "Poppins", sans-serif;
 }
 
+#dark marquee{
+  background: linear-gradient(109.6deg, rgb(26, 80, 116) 3.6%, rgb(53, 39, 106) 51%, rgb(67, 36, 75) 92.9%);
+  color: white;
+}
+
 
 
 

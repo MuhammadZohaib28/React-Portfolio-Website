@@ -1,26 +1,28 @@
-import React, { useState }  from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Marquee from "./components/Marquee";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import "./App.css";
 
-const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+export const ThemeContext = React.createContext(null);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.body.classList.toggle('dark-mode');
+const App = () => {
+  const [theme, setTheme] = useState("light")
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"))
   };
-  
+
   return (
-    <div className="app">
-      <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
-      <Header />
-      <Marquee />
-      <Hero />
-      <Projects />
-    </div>
+    <ThemeContext.Provider value={{theme, toggleTheme}}>
+      <div className="app" id={theme}>
+        <Header button = {toggleTheme}/>
+        <Marquee />
+        <Hero />
+        <Projects />
+      </div>
+    </ThemeContext.Provider>
   );
 };
 
