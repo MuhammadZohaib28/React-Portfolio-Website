@@ -227,6 +227,7 @@
     rgb(194, 227, 255) 39.3%,
     rgb(226, 196, 253) 72.5%
   );
+  
 
   padding: 0.4rem;
   border-radius: 0.4rem;
@@ -300,10 +301,7 @@ span {
   cursor: pointer;
 }
 
-#dark .paraMainSection1,
-.paraMainSection3,
-.paraMainSection5, .paraMainSection2,
-.paraMainSection4 {
+#dark .paraMainSection{
   background: linear-gradient(109.6deg, rgb(41, 125, 182) 3.6%, rgb(77, 58, 151) 51%, rgb(103, 55, 115) 92.9%);
   color: white;
 }
