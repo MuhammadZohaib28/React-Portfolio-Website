@@ -4,9 +4,11 @@ import projectPicture2 from "../components/Images/socialmedia.jpg";
 import projectPicture3 from "../components/Images/shopingcart.jpg";
 import projectPicture4 from "../components/Images/quizapp.jpg";
 import projectPicture5 from "../components/Images/portfolio.jpg";
+import projectPicture6 from "../components/Images/shoewebsite.jpg";
 
 
 const projectData = [
+
   {
     date: "19th March, 2022",
     description: "This project is one of my first project, Crypto Price App. Here you can see the updated prices of digital currencies. ",
@@ -20,6 +22,13 @@ const projectData = [
     projectPicture: projectPicture2,
     accountPicture: postPicture,
     projectLink: "https://github.com/MuhammadZohaib28/socialmediawebsitefrontend"
+  },
+  {
+    date: "10th June, 2023",
+    description: "This project is conversion of a figma design to a ReactJS. ",
+    projectPicture: projectPicture6,
+    accountPicture: postPicture,
+    projectLink: "https://github.com/MuhammadZohaib28/FigmaToReactJS"
   },
   {
     date: "29th May, 2022",
@@ -42,6 +51,7 @@ const projectData = [
     accountPicture: postPicture,
     projectLink: "https://github.com/MuhammadZohaib28/PortfolioWebsiteUsingHTML-CSS-JS"
   },
+  
 ];
 
 export default projectData;
