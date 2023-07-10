@@ -10,7 +10,7 @@ import up from "../src/components/Images/up.png";
 export const ThemeContext = React.createContext(null);
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
   const toggleTheme = () => {
