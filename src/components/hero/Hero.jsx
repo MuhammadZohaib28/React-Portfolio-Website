@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./hero.css";
-import zohaibPicture from "./Images/zohaib's picture.png";
+import zohaibPicture from "../Images/zohaib's picture.png"
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 

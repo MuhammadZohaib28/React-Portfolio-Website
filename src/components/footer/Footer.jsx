@@ -1,10 +1,10 @@
 import React from "react";
 import "./footer.css";
-import logo from "../components/Images/logo.png";
-import fbLogo from "../components/Images/facebook.png";
-import githubLogo from "../components/Images/github.png";
-import linkedInLogo from "../components/Images/linkedIn.png";
-import twitterLogo from "../components/Images/twitter.png";
+import logo from "../Images/logo.png";
+import fbLogo from "../Images/facebook.png";
+import githubLogo from "../Images/github.png";
+import linkedInLogo from "../Images/linkedIn.png";
+import twitterLogo from "../Images/twitter.png";
 
 const Footer = () => {
   const date = new Date();
@@ -32,15 +32,23 @@ const Footer = () => {
             </li>
           </a>
 
-          <a href="https://github.com/MuhammadZohaib28" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/MuhammadZohaib28"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <li className="socialMediaIconFooter">
               <img src={githubLogo} alt="" />
             </li>
           </a>
 
-          <a href="https://www.linkedin.com/in/muhammad-zohaib-b94280190/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/muhammad-zohaib-b94280190/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <li className="socialMediaIconFooter">
-              <img src={linkedInLogo} alt="" className="linkedIn"/>
+              <img src={linkedInLogo} alt="" className="linkedIn" />
             </li>
           </a>
 

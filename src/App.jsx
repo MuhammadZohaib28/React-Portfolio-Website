@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Marquee from "./components/Marquee";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
+import Header from "./components/header/Header"
+import Marquee from "./components/marquee/Marquee";
+import Hero from "./components/hero/Hero";
+import Projects from "./components/projects/Projects";
 import "./App.css";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 import up from "../src/components/Images/up.png";
 
 export const ThemeContext = React.createContext(null);

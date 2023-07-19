@@ -1,11 +1,11 @@
-import postPicture from "../components/Images/zohaib's picture.png";
-import projectPicture1 from "../components/Images/crypto.jpg";
-import projectPicture2 from "../components/Images/socialmedia.jpg";
-import projectPicture3 from "../components/Images/shopingcart.jpg";
-import projectPicture4 from "../components/Images/quizapp.jpg";
-import projectPicture5 from "../components/Images/portfolio.jpg";
-import projectPicture6 from "../components/Images/shoewebsite.jpg";
-import projectPicture7 from "../components/Images/funnyexcuse.jpg";
+import postPicture from "../Images/zohaib's picture.png";
+import projectPicture1 from "../Images/crypto.jpg";
+import projectPicture2 from "../Images/socialmedia.jpg";
+import projectPicture3 from "../Images/shopingcart.jpg";
+import projectPicture4 from "../Images/quizapp.jpg";
+import projectPicture5 from "../Images/portfolio.jpg";
+import projectPicture6 from "../Images/shoewebsite.jpg";
+import projectPicture7 from "../Images/funnyexcuse.jpg";
 
 const projectData = [
   {
