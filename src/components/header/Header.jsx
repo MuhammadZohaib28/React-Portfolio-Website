@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./header.css";
 import logo from "../Images/logo.png";
 import cvFile from "../path/to/Muhammad Zohaib Resume.pdf";
-import bars from  "../Images/barsss.png"
-import x from  "../Images/x.webp"
+import bars from "../Images/barsss.png";
+import x from "../Images/close.png";
+import ThemeMode from "../thememode/ThemeMode";
 
 const Header = (props) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -22,14 +23,13 @@ const Header = (props) => {
 
   const showBars = () => {
     return (
-
-      <img src={bars} style={{height: "3rem", mixBlendMode: "multiply"}}/>
-    )
-  }
+      <img src={bars} style={{ height: "3rem", mixBlendMode: "multiply" }} />
+    );
+  };
 
   const showClose = () => {
-    return <img src={x} style={{height: "3rem"}}/>
-  }
+    return <img src={x} style={{ height: "3rem" }} />;
+  };
 
   return (
     <div className="headder">
@@ -39,7 +39,7 @@ const Header = (props) => {
         <nav>
           {window.innerWidth <= 768 && (
             <button className="menuButton" onClick={handleMenuButtonClick}>
-             { showMenu ? showClose() : showBars()}
+              {showMenu ? showClose() : showBars()}
             </button>
           )}
           {(window.innerWidth > 768 || showMenu) && (
@@ -50,10 +50,8 @@ const Header = (props) => {
               <li className="headerNavLi" onClick={handleDownloadCVClick}>
                 Download Resume
               </li>
-              <li className="headerNavLi" onClick={props.button}>
-                {props.name === "light"
-                  ? "Convert to Dark Mode"
-                  : "Convert to Light Mode"}
+              <li onClick={props.button}>
+                <ThemeMode />
               </li>
             </ul>
           )}
