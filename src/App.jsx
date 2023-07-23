@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Header from "./components/header/Header"
+import Header from "./components/header/Header";
 import Marquee from "./components/marquee/Marquee";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import up from "../src/components/Images/up.png";
-
-export const ThemeContext = React.createContext(null);
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -40,20 +38,18 @@ const App = () => {
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className="app" id={theme}>
-        <Header button={toggleTheme} name={theme} />
-        <Marquee />
-        <Hero />
-        <Projects />
-        <Footer />
-        {showScrollToTop && (
-          <button className="scrollToTop" onClick={handleScrollToTop}>
-            <img src={up} alt="" />
-          </button>
-        )}
-      </div>
-    </ThemeContext.Provider>
+    <div className="app" id={theme}>
+      <Header button={toggleTheme} name={theme} />
+      <Marquee />
+      <Hero />
+      <Projects />
+      <Footer />
+      {showScrollToTop && (
+        <button className="scrollToTop" onClick={handleScrollToTop}>
+          <img src={up} alt="" />
+        </button>
+      )}
+    </div>
   );
 };
 

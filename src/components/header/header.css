@@ -34,6 +34,7 @@ header {
     rgb(26, 0, 56) 13.4%,
     rgb(73, 1, 32) 100.2%
   );
+
 }
 
 img {
@@ -73,15 +74,15 @@ img {
   border-radius: 0.2rem;
 }
 
-.headerNavLi {
+.headerNavLi:hover {
   /* border: 1px solid red; */
   background-color: #04bfe4;
   padding: 0.4rem;
   border-radius: 0.3rem;
   background: linear-gradient(
     109.6deg,
-    rgb(80, 35, 217, 0.254) 11.2%,
-    rgb(217, 35, 189, 0.254) 91.1%
+    rgba(212, 205, 232, 0.854) 11.2%,
+    rgba(209, 112, 193, 0.854) 91.1%
   );
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
@@ -90,14 +91,27 @@ img {
   font-weight: 550;
 }
 
-.headerNavLi:hover {
-  background: linear-gradient(
-    109.6deg,
-    rgb(80, 35, 217, 0.854) 11.2%,
-    rgb(217, 35, 189, 0.854) 91.1%
-  );
+
+.iconcv {
+  height: 1.6rem;
 }
 
+.cv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-weight: 550;
+}
+
+.cvtext {
+  font-size: 1.2rem;
+}
+
+.iconhireme {
+  height: 2rem;
+}
 /* Responsive Styles */
 
 @media (max-width: 768px) {
