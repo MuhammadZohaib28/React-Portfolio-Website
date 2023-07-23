@@ -10,7 +10,7 @@ const ThemeMode = () => {
       <div className="icon">🌙</div>
       <div
         className="ball"
-        style={mode === "light" ? { right: "2.1rem" } : { left: "2rem" }}
+        style={mode === "light" ? { right: "2.1rem" } : { left: "2.1rem" }}
       />
     </div>
   );
