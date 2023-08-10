@@ -1,5 +1,5 @@
 import postPicture from "../Images/zohaib's picture.png";
-import projectPicture0 from "../Images/v.mp4";
+import projectPicture0 from "../Images/video.mp4";
 import projectPicture1 from "../Images/crypto.jpg";
 import projectPicture2 from "../Images/socialmedia.jpg";
 import projectPicture3 from "../Images/shopingcart.jpg";
