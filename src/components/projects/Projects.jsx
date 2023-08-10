@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="socialMediaSectionHeadingContainer abt">
           <h1 className=" ">Projects</h1>
         </div>
-        {projectData.map((items) => {
+        {projectData.map((items, index) => {
           return (
             <>
               <div className="postContainer">
@@ -35,11 +35,16 @@ const Projects = () => {
                 <div className="postBottom">
                   <div className="postBottomImgContainer">
                     <a href={items.projectLink} target="_blank">
-                      <img
-                        src={items.projectPicture}
-                        alt=""
-                        className="postBottomImg"
-                      />
+                      {index === 0 && items.projectVideo ? (
+                        <video controls src={items.projectVideo} className="postBottomImg"/>
+                         
+                      ) : (
+                        <img
+                          src={items.projectPicture}
+                          alt=""
+                          className="postBottomImg"
+                        />
+                      )}
                     </a>
                   </div>
                 </div>
