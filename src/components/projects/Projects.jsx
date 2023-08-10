@@ -36,7 +36,11 @@ const Projects = () => {
                   <div className="postBottomImgContainer">
                     <a href={items.projectLink} target="_blank">
                       {index === 0 && items.projectVideo ? (
-                        <video controls src={items.projectVideo} className="postBottomImg"/>
+                        // <video controls src={items.projectVideo} className="postBottomImg"/>
+                        <video controls  className="postBottomImg">
+                          <source src={items.projectVideo} type="video/mp4"/>
+                          Your browser does not support the video tag.
+                        </video>
                          
                       ) : (
                         <img
