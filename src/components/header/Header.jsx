@@ -5,8 +5,8 @@ import cvFile from "../path/to/Muhammad Zohaib Resume.pdf";
 import bars from "../Images/barsss.png";
 import x from "../Images/close.png";
 import ThemeMode from "../thememode/ThemeMode";
-import downloadcv from '../Images/downloadcv.webp'
-import hireme from '../Images/hiremee.png'
+import downloadcv from "../Images/downloadcv.webp";
+import hireme from "../Images/hiremee.png";
 
 const Header = (props) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -47,11 +47,11 @@ const Header = (props) => {
           {(window.innerWidth > 768 || showMenu) && (
             <ul className={`headerNavUl ${showMenu ? "showMenu" : ""}`}>
               <li className="headerNavLi cv" onClick={handleHireMeClick}>
-              <img src={hireme} className="iconhireme"/>
-              <span className="cvtext">Hire me</span>
+                <img src={hireme} className="iconhireme" />
+                <span className="cvtext">Hire me</span>
               </li>
               <li className="headerNavLi cv" onClick={handleDownloadCVClick}>
-                <img src={downloadcv} className="iconcv"/>
+                <img src={downloadcv} className="iconcv" />
                 <span className="cvtext">Resume</span>
               </li>
               <li onClick={props.button}>

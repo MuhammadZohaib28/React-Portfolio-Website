@@ -6,6 +6,7 @@ import Projects from "./components/projects/Projects";
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import up from "../src/components/Images/up.png";
+import Swal from "sweetalert2";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -15,7 +16,16 @@ const App = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
 
+  const url = "https://muhammedzohaib.vercel.app";
+
   useEffect(() => {
+    Swal.fire({
+      title: "THIS IS OLD WEBSITE",
+      icon: "info",
+      html:
+        "Please visit <b>New Website</b>, " +
+        '<a href="https://muhammedzohaib.vercel.app"><b>Click Here</b></a> ',
+    });
     const handleScroll = () => {
       const scrolledToBottom =
         window.innerHeight + window.scrollY >= document.body.offsetHeight;
