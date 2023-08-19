@@ -24,7 +24,7 @@ const App = () => {
       icon: "info",
       html:
         "Please visit <b>New Website</b>, " +
-        '<a href="https://muhammedzohaib.vercel.app"><b>Click Here</b></a> ',
+        '<a href="https://muhammadzuhaib.vercel.app"><b>Click Here</b></a> ',
     });
     const handleScroll = () => {
       const scrolledToBottom =
