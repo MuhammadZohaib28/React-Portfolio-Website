@@ -20,11 +20,15 @@ const App = () => {
 
   useEffect(() => {
     Swal.fire({
-      title: "THIS IS OLD WEBSITE",
-      icon: "info",
+      title: "<strong>THIS IS OLD WEBSITE</strong>",
+      icon: "warning",
       html:
         "Please visit <b>New Website</b>, " +
         '<a href="https://muhammadzuhaib.vercel.app"><b>Click Here</b></a> ',
+        showLoaderOnConfirm:true,
+        
+        confirmButtonText: "I still wanna view old website."
+    
     });
     const handleScroll = () => {
       const scrolledToBottom =
